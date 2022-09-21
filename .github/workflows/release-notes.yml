@@ -19,8 +19,7 @@ jobs:
         env:
           ACTION_MAIL: f.zamora@namoadigital.com
           ACTION_NAME: CHOICE
-          GH_PAT: ${{ secrets.GIT_TOKEN }}
+          GH_PAT: "${{ secrets.GIT_TOKEN }}"
           MD_FOLDER: temp_release_notes
           OWNER: manochoice
           REPO_NAME: TestGitAction
-          SKIP_MD: README.md
