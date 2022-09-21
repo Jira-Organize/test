@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action Clicked", null).show()
+                .setAction("Action Clicked Pusheds", null).show()
         }
     }
 
